@@ -8,7 +8,7 @@ const Conatiner = () => {
   return (
     <div className={`app ${theme === "dark" ? theme : "light" } ` }>
       <Header/>
-      <hr/>
+
       <Button/>
     </div>
   )
